@@ -49,6 +49,17 @@
 .todo_list_box .todo_list_option {
   display: flex;
   align-items: center;
+  animation: slowUP 1s 1;
+}
+@keyframes slowUP {
+  from {
+    margin-top: -20px;
+    opacity: 0;
+  }
+  to {
+    margin-top: 17px;
+    opacity: 1;
+  }
 }
 .todo_list_box .todo_list_option > div {
   height: 15px;
