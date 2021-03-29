@@ -1,9 +1,10 @@
 <template>
   <div id="app">
-    <Title />
-    <InputBox />
-    <Options />
-    <TodoList />
+<!--    <Title />-->
+<!--    <InputBox />-->
+<!--    <Options />-->
+<!--    <TodoList />-->
+    <LoginPage />
   </div>
 </template>
 
@@ -12,8 +13,9 @@
   import InputBox from "./components/InputBox";
   import Options from "./components/Options";
   import TodoList from "./components/TodoList";
+  import LoginPage from "./components/LoginComponents/LoginPage";
   export default {
-    components: {TodoList, Options, InputBox, Title}
+    components: {LoginPage, TodoList, Options, InputBox, Title}
   }
 </script>
 
